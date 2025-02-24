@@ -3,7 +3,7 @@
 Dataset:
 
 Stroke Prediction Dataset - 
-Contains 11 variables to be used for education purposes to predict wheather a patient will have a stroke. All quantitative variables were turned categorical within the Logistic Regression(R) script. For preprocessing the data, missing data was imputed with their means/modes, and for the logistic regression, quantitative variables were transformed into categories. For looking at the knn-clustering results, the quantitative variables used had to be normalized. Our four methods used to analyze the data were knn-clustering to see if there were any interesting trends/shapes in the data, logistic regression, xgboost and random forest algorithms to build models for the data.
+Contains 11 variables to be used for education purposes to predict whether a patient will have a stroke. All quantitative variables were turned categorical within the Logistic Regression(R) script. For preprocessing the data, missing data was imputed with their means/modes, and for the logistic regression, quantitative variables were transformed into categories. For looking at the knn-clustering results, the quantitative variables used had to be normalized. Our four methods used to analyze the data were knn-clustering to see if there were any interesting trends/shapes in the data, logistic regression, xgboost, and random forest algorithms to build models for the data.
 https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data 
 
 
@@ -35,7 +35,7 @@ KNN Clustering:
 
 <img width="626" alt="knn clustering" src="https://github.com/user-attachments/assets/d28d0223-a372-4a6e-a76d-55951a227777" />
 
-The knn clustering was divided into 3 clusters based on age, average glucose level, and BMI. It appears the green cluster represents older people with higher BMI and glucose levels, the blue cluster represents younger people with lower BMI and glucose levels, and the red cluster represents people in the middle. The overlap occurs because people do not follow scrict patters (there are yound people with high BMI and glucose levels, and older people with low BMI and glucose levels). Individuals in the green cluster may be at higher risk of stroke and need further health monitoring. Individuals in the blue cluster may not need as much medical intervention based on these statistics.
+The knn clustering was divided into 3 clusters based on age, average glucose level, and BMI. It appears the green cluster represents older people with higher BMI and glucose levels, the blue cluster represents younger people with lower BMI and glucose levels, and the red cluster represents people in the middle. The overlap occurs because people do not follow script patters (there are young people with high BMI and glucose levels, and older people with low BMI and glucose levels). Individuals in the green cluster may be at higher risk of stroke and need further health monitoring. Individuals in the blue cluster may not need as much medical intervention based on these statistics.
 
 Logistic Regression:
 
@@ -48,7 +48,7 @@ Random Forest:
 <img width="530" alt="Random Forest" src="https://github.com/user-attachments/assets/a2fa0f23-4e69-4af5-ac2b-c19488d7ab30" />
 
 
-The Random Forest model had an accuracy of 88.58%. Although this seems acurate, when looking at the precision, we can see that the model predicts "No Stroke" correctly 95% of the time, but only predicts a stroke correctly 15% of the times. This results in many false positives.
+The Random Forest model had an accuracy of 88.58%. Although this seems accurate, when looking at the precision, we can see that the model predicts "No Stroke" correctly 95% of the time, but only predicts a stroke correctly 15% of the times. This results in many false positives.
 
 XGBoost:
 
@@ -64,6 +64,8 @@ Overall, the results show that the social determinants of health that contribute
 With more time and resources it would be beneficial to create predictor models that are more accurate at predicting strokes.
 
 Sources:
+
+https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data
 
 https://www.ahajournals.org/doi/full/10.1161/CIRCRESAHA.116.308398#sec-3
 
