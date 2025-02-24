@@ -45,15 +45,23 @@ The logistic regression is a variable of importance plot that displays which soc
 
 Random Forest:
 
-The Random Forest model had an accuracy of 88.58%.
+<img width="530" alt="Random Forest" src="https://github.com/user-attachments/assets/a2fa0f23-4e69-4af5-ac2b-c19488d7ab30" />
+
+
+The Random Forest model had an accuracy of 88.58%. Although this seems acurate, when looking at the precision, we can see that the model predicts "No Stroke" correctly 95% of the time, but only predicts a stroke correctly 15% of the times. This results in many false positives.
 
 XGBoost:
 
-The XGBoost model had an accuracy of 88.52%.
+<img width="639" alt="XGBoost" src="https://github.com/user-attachments/assets/b67f6c68-0650-48eb-bbd1-d07980821d5d" />
+
+
+The XGBoost model had an accuracy of 88.52%. Similarly to the Random Forest model, when looking at the precision, we can see that the model predicts "No Stroke" correctly 95% of the time, but only predicts a stroke correctly 13% of the times. This is slightly worse than the Random Forest model although both models are good at predicting "No Stroke" but bad at predicting a stroke.
 
 Conclusion:
 
-Overall, the results show that the social determinants of health that contribute most to stroke risk is obesity and high-blood pressure. In order to minimize the risk of stroke as much as possible, people should try to live healthy lifestyles to lower their blood-pressure and BMI.
+Overall, the results show that the social determinants of health that contribute most to stroke risk is obesity and high-blood pressure. In order to minimize the risk of stroke as much as possible, people should try to live healthy lifestyles to lower their blood-pressure and BMI. 
+
+With more time and resources it would be beneficial to create predictor models that are more accurate at predicting strokes.
 
 Sources:
 
